@@ -76,7 +76,7 @@ if __name__ == '__main__':
     thislist = [car1, car2, car3]
     thisrentedlist=[]
     print('\nWelcome to Star Car Rental')
-    name= input('\nEnter Customer  Name : ')
+    name= input('\n Enter Customer  Name : ')
     print(        '\nHi ' + name + ', Below is the Car Rental Menu-Please press the number to selct from menu  ')
     cur_Cus = instntCustomer.Customer(name)
     menu(thislist,thisrentedlist,cur_Cus)

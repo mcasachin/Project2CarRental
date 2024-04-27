@@ -14,16 +14,19 @@ git clone https://github.com/mcasachin/PythonSImpl  - Clone file to loacl
 To check inc ode to github repo 
 after chaning all the files 
 git status		To view current status of added/modified files
+git commit -m "first commit"
 git add. 		To add all modified files to loacl repo (git add filename for specific files)
 git resotre  filename.txt 		To undo changes of a file 
 git resotre -- staged filename.txt 	To undo add file to local repo
 git commit -m 'firstgit - Commit file to local repo'	To coomit file to loacl repo
 git push 				To push file to cloud
 
+
 Create a Branch and checkin to github
 git branch firstbranch 		- create first branch
 git checkout firstbranch 	- checkout branch
 git branch 			- list of branch 
+git commit -m "first commit"
 git add. 			- To add all branch modified files to loacl repo (git add filename for specific files)
 git push 			- To push branch file to cloud
 git checkout master		- checkout Master
@@ -31,6 +34,7 @@ git merge			- Merge with Master
 git push 			- To push master to cloud
 
 git diff			- To comapre working directory and staging directory
+git diff --staged		- To comapre staging file with last commited files
 
 Genral commands --
 git remote -v  		To know the origin of project - HTTP URL of project
